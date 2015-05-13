@@ -215,6 +215,7 @@ section.success a.active {
     max-width: 400px;
 }
 
+/*overlay for the portfolio icons*/
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
@@ -224,6 +225,7 @@ section.success a.active {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+    border-radius: 50%;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
